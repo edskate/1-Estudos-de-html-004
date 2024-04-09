@@ -61,7 +61,16 @@ h1{
   width: 300px;
   
 }
-
+p,td{
+  color: #00ffff;
+  text-shadow: 1px 1px 1px #000;
+  border-bottom: 3px solid #010404;
+  border-style: solid;
+  border-width: 10px;
+  box-shadow: 10px 10px 10px #000;
+  border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+  width: 300px;
+}
 
 /**
  * `@property` is required for the animation to work.
